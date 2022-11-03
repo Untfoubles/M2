@@ -1,0 +1,71 @@
+body {
+	background-color: pink;
+	display: block;
+  margin: 0;
+	font-family: Avant Garde, Avantgarde, Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+}
+
+h1 {
+color: #111; font-family: 'Helvetica Neue', sans-serif; font-size: 40px; font-weight: bold; letter-spacing: -1px; line-height: 1; 
+color: #8a0404;
+font-style: italic;
+font-size: xlarge;
+font-weight: bold;
+margin-top: 0px;
+margin-bottom: 1px;
+	text-align: center;
+}
+header {
+  background-color: black;
+	color: pink;
+  text-align: center;
+  padding: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+img{
+  width: 35%;
+  box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.5);\
+}
+.description {
+	display: block;
+	color: pink;
+	background-color: #8a0404;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.recipe_details {
+ width: 25%;
+ float: center;
+ color: #8a0404;
+ font-size: large;
+ font-family: fantasy;
+}
+	h2{
+		color: black;
+}
+.variation {
+	color: #8a0404; 
+	font-family: monospace;
+	font-style: italic;
+	font-size: large;
+	content: "";
+  display: table;
+  clear: both;
+}
+
+.ingredients{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.instructions{
+	color: black;
+	text-align: left;
+  padding: 10px;
+}

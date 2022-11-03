@@ -1,0 +1,12 @@
+body {
+    background-color: rgb(94, 113, 146);
+}
+ul.B{
+    list-style-type: square;
+}
+ul.P{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(162, 255, 0);
+}

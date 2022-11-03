@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+#header {
+    text-align: center;
+    border: 3px solid #97d2fb;
+    color: #568259;
+    background-color: #c2f8cb;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), transparent), url(images/e.png);
+    background-size: cover;
+    background-position: center;
+    padding: 0 8%;
+    position: relative;;
+
+}
+
+.logo {
+    width: 80px;
+    cursor: pointer;
+    margin-top: 2%;
+}
+
+.cart-icon {
+    width: 50px;
+    cursor: pointer;
+    height: auto;
+    margin-top: 40px;
+    background: #c2f8cb;
+    border-radius: 50px;
+    padding: 10px;
+    box-shadow: 0 25px 20px -20px rgba(0, 0, 0, 0.4);
+
+}
+
+#account {
+    float: right;
+    display: flex;
+    justify-content: space-between;
+    width: 180px;
+}
+
+
+#searchbar {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: baseline;
+  
+}
+#searchbar nav {
+    background: #fff;
+    border-radius: 50px;
+    padding: 10px;
+    margin-top: 5%;
+    margin-right: 10%;
+    box-shadow: 0 25px 20px -20px rgba(0, 0, 0, 0.4);
+    position: relative;
+    top: -150px;
+    left: 26%;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 13px 35px;
+    margin: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #777;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+    transition: color 0.4s;
+    text-decoration: none;
+
+}
+
+nav ul li::after {
+    content: '';
+    background: #eddea4;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    opacity: 0;
+    transition: top 0.5s, opacity 0.5s;
+}
+
+nav ul li:hover {
+    color: #fff;
+}
+
+nav ul li:hover::after {
+    top: 50%;
+    opacity: 1;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #568259;
+}
+
+.products{
+    height: 500px;
+    box-sizing: content-box;
+    background-color: aqua;
+}
+
+footer {
+    border: 5px solid #97d2fb;
+    color: #568259;
+    height: 40%;
+    background-color: #c2f8cb;
+    height: 30%;
+}
+
+.products{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}

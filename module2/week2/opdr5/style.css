@@ -1,0 +1,126 @@
+body {
+    background-color:antiquewhite;
+}
+
+div {
+    background-color: white;
+    border-radius: 5px;
+    position: relative;
+
+}
+
+#kaart1 {
+    height: 205px;
+    width: 146px;
+}
+
+#kaart2 {
+    height: 205px;
+    width: 146px;
+    margin-left: 150px;
+}
+
+#kaart3 {
+    height: 205px;
+    width: 146px;
+    margin-left: 300px;
+}
+
+#kaart4 {
+    height: 205px;
+    width: 146px;
+    margin-left: 450px;
+}
+
+
+#schoppen1 {
+    position: relative; top: -30px;
+}
+
+#hart1 {
+    position: relative; top: -30px;
+}
+
+#klaver1 {
+    position: relative; top: -30px;
+}
+
+#ruit1 {
+    position: relative; top: -30px;
+}
+
+#hart {
+    float: right;
+    margin-top: 85px;
+    transform: rotate(180deg);
+}
+
+#schoppen {
+    float: right;
+    margin-top: 90px;
+    transform: rotate(180deg);
+}
+
+#klaver {
+    float: right;
+    margin-top: 90px;
+    transform: rotate(180deg);
+}
+
+#ruit {
+    float: right;
+    margin-top: 90px;
+    transform: rotate(180deg);
+}
+
+.container {
+    background-color: #03b430;
+    height: auto;
+    width: 600px;
+    border: 1px solid black;  
+    margin: auto;
+}
+
+#p1{
+    font-size: 30px;
+}
+
+#p2{
+    font-size: 30px;
+}
+
+#p3{
+    font-size: 30px;
+}
+
+#p4{
+    font-size: 30px;
+}
+
+#p11{
+    font-size: 30px;
+    margin-top: 85px;
+    margin-left: 120px;
+    transform: rotate(180deg);
+}
+
+#p22{
+    font-size: 30px;
+    margin-top: 80px;
+    margin-left: 120px;
+    transform: rotate(180deg);
+}
+
+#p33{
+    font-size: 30px;
+    margin-top: 85px;
+    margin-left: 120px;
+    transform: rotate(180deg);
+}
+
+#p44{
+    font-size: 30px;
+    margin-top: 85px;
+    margin-left: 120px;
+    transform: rotate(180deg);
+}

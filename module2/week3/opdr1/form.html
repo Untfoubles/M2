@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>FORMS</title>
+</head>
+
+<body>
+    <div id="container">
+        <form action="doelbestand.php" method="post"><br>
+            Voornaam: <input type="text" name="vnaam" placeholder="Voornaam"><br>
+            Achternaam: <input type="text" name="anaam" placeholder="Achternaam"><br>
+            Geboortedatum: <input type="date" date="gdatum" placeholder="Jouw geboortedatum">
+
+            <br> <input type="submit" />
+            <input id="country" type="text" name="country" size="40" list="countries" />
+            <datalist id="countries">
+                <option value="Australia"></option>
+                <option value="Canada"></option>
+                <option value="Germany"></option>
+                <option value="France"></option>
+                <option value="United Kingdom"></option>
+                <option value="United States"></option>
+
+            </datalist>
+            <br>
+            quantity products..<input type="number" min="5" max="100" step="5" value="10">
+            <br>
+            YOUR EMAIL<input type="email" required>
+            <input type="file">
+            <input type="color">
+            <input type="range" min="1" max="10">
+
+
+        </form>
+
+    </div>
+</body>
+
+</html>

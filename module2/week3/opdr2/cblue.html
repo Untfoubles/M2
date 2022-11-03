@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <img src="coolblueimg.jpg">
+
+    </header>
+    <border>
+        <div class="border">
+            <img src="gegevens.png">
+        </div>
+    </border>
+
+    <div class="rij">
+        <div class="links">
+            <p>Type bestelling</p>
+        </div>
+        <div class="rechts">
+            <p>
+                <input type="radio" name="type bestelling" value="particuleer" />particulier
+                <input type="radio" name="type bestelling" value="zakelijk" />zakelijk
+            </p>
+        </div>
+    </div>
+
+    <div class="rij">
+        <div class="links">
+            <p>Aanhef</p>
+        </div>
+
+        <div class="rechts">
+            <p>
+                <input type="radio" name="Aanhef" value="Dhr." />Dhr.
+                <input type="radio" name="Aanhef" value="Mevr." />Mevr.
+            </p>
+        </div>
+    </div>
+    <div class="rij">
+        <div class="links">
+            <p>Naam</p>
+        </div>
+
+        <div class="rechts">
+            <p>
+                <input type="text" name="Vnaam" placeholder="Voornaam" />
+                <input type="text" name="Tvoegsel" id="tussenvoegsel" placeholder="Tussenv." />
+                <input type="text" name="anaam" placeholder="Achternaam" />
+            </p>
+        </div>
+    </div>
+    <div class="rij">
+        <div class="links">
+            <p>Postcode</p>
+        </div>
+
+        <div class="rechts">
+            <p>
+                <input type="text" name="Postcode" placeholder="1234AB" />
+            </p>
+        </div>
+    </div>
+    <div class="rij">
+        <div class="links">
+            <p>Huisnummer</p>
+        </div>
+
+        <div class="rechts">
+            <p>
+                <input type="text" name="Huisnummer" placeholder="Nr." />
+                <input type="text" name="Huisnummer" placeholder="Tussenv." />
+            </p>
+        </div>
+    </div>
+    <div class="rij">
+        <div class="links">
+            <p>Land</p>
+        </div>
+
+        <div class="rechts">
+            <p>
+                <input type="text" name="Nederland" placeholder="Nederland" />
+                <a href="hsdsdsf.com">> In belgie laten bezorgen!</a>
+            </p>
+        </div>
+    </div>
+
+    <div class="rij">
+        <div class="links">
+            <p>Afleveradres</p>
+        </div>
+        <div class="rechts">
+            <p>
+                <input type="radio" name="bovenstaand" value="Op bovenstaand adres bezorgen" /> Op bovenstaand adres
+                bezorgen
+                <input type="radio" name="bovenstaand" value="Op ander adres bezorgen" /> Op ander adres bezorgen
+            </p>
+        </div>
+    </div>
+
+    <div class="rij">
+        <div class="links">
+            <p> <span class="question">&#63;</span> E-mailadres</p>
+        </div>
+        <div class="rechts">
+            <p>
+                <input type="email" name="Email" placeholder="E-mailadres" />
+
+            </p>
+        </div>
+    </div>
+
+    <div class="rij">
+        <div class="links">
+            <p> <span class="question">&#63;</span> Telefoon nummer</p>
+        </div>
+
+        <div class="rechts">
+            <p>
+                <input type="text" name="telefoonnummer" placeholder="+31" />
+            </p>
+        </div>
+    </div>
+
+    <div class="rij">
+        <div class="links">
+            <p> <span class="question">&#63;</span> Geboortedatum</p>
+        </div>
+
+        <div class="rechts">
+            <p>
+                <input type="date" name="datum" />
+            </p>
+        </div>
+    </div>
+    <div class="rij">
+        <div class="links">
+            <p> <span class="question">&#63;</span> Verzendwijze factuur</p>
+        </div>
+
+        <div class="rechts">
+            <p>
+                <input type="radio" name="Verzendwijze" value="Factuur per e-mail" />Factuur per e-mail
+                <input type="radio" name="Verzendwijze" value="Factuur geprint bij de bestelling" />Factuur geprint bij
+                de bestelling
+            </p>
+        </div>
+    </div>
+    <div class="rij">
+        <div class="links">
+            <p> <span class="question">&#63;</span> Nieuwsbrief</p>
+        </div>
+
+        <div class="rechts">
+            <p>
+                <input type="checkbox" name="nieuwsbrief" value="nieuwsbrief" /> Ja, ik wil de Coolblue-nieuwsbrief met
+                5,- cadeaubon voor mijn volgende bestelling
+            </p>
+        </div>
+    </div>
+
+    <div class="rij">
+        <div class="links">
+            <p> <span class="question">&#63;</span> Kleur verpakking</p>
+        </div>
+
+        <div class="rechts">
+            <p>
+                <input type="color" />
+            </p>
+        </div>
+    </div>
+    <div class="border">
+        <img src="gegevens.png">
+    </div>
+    <div class="rij">
+        <div class="links">
+            <p> <span class="question">&#63;</span> Wachtwoord</p>
+        </div>
+        <div class="rechts">
+            <p>
+                <input type="password" name="wachtwoord" required />
+                minimaal 6 karakters <br> verder doen we niet zo moeilijk.
+            </p>
+        </div>
+    </div>
+
+
+    <div class="rij">
+        <div class="links">
+            <p> <span class="question">&#63;</span> Wachtwoord bevestigen</p>
+        </div>
+
+        <div class="rechts">
+            <p>
+                <input type="password" name="wachtwoord" required />
+            </p>
+        </div>
+    </div>
+
+    <div class="flex">
+        <div id="submit">
+            <p>
+                <input type="submit" value="verder" />
+            </p>
+        </div>
+    </div>
+
+
+
+    <footer>
+        <div id="container">
+            <div class="footer">
+                <h2><span class="question">&#63;</span>BEL 010 7988999. </h2>
+                <h3>Voor acute service</h3>
+                <h4>Onze servcie is nu open.</h4>
+                <h5>Je kunt ons 7 dagen per week bereiken.
+                    <br> Vandaag is de klantenservice tot 23.59 uur open.
+                </h5>
+            </div>
+
+            <div class="footer">
+                <h2>SERVICE.</h2>
+                <h3>Onderdeel van CoolBlue.</h3>
+                <h5><span class="question">&#63;</span>Gratis verzenden & retourneren</h5>
+                <h5><span class="question">&#63;</span>Voor 23.59 besteld, morgen in huis</h5>
+                <h5><span class="question">&#63;</span>Track & Trace, volg je pakket</h5>
+                <h5><span class="question">&#63;</span>Statusupdates via e-mail</h5>
+                <h5><span class="question">&#63;</span>Winkels in Amsterdam, Eindhoven, Groningen, Rotterdam en Utrecht.
+                </h5>
+
+            </div>
+        </div>
+
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Formulieren</title>
+</head>
+
+<body>
+    <div id="container">
+        <h1>Ahsen Yavuz</h1>
+        <form>
+
+            <fieldset>
+                <Legend>
+                    <h2 class="h2">Tekstvelden</h2>
+                </Legend>
+
+                <p class="p"><label for="voornaam">Voornaam:</label> <input id="voornaam" type="text"
+                        name="Voornaam:" /></p>
+                <p class="p"><label for="achternaam">Achternaam:</label> <input type="text" name="Achternaam:" /></p>
+                <p class="p"><label for="password">Wachtwoord:</label> <input type="password" name="pwd" /></p>
+            </fieldset>
+
+
+            <fieldset>
+                <Legend>
+                    <h2 class="h2">Radio Buttons</h2>
+                </Legend>
+                <p class="p"><input type="radio" name="geslacht" value="man" />Man</p>
+                <p class="p"><input type="radio" name="geslacht" value="vrouw" />Vrouw</p>
+            </fieldset>
+
+
+            <fieldset>
+                <Legend>
+                    <h2 class="h2">Checkbox</h2>
+                </Legend>
+                <p class="p"><input type="checkbox" name="vehicle" value="Fiets" />Ik heb een fiets</p>
+                <p class="p"><input type="checkbox" name="vehicle" value="auto" />Ik heb een auto</p>
+            </fieldset>
+
+            <fieldset>
+                <Legend>
+                    <h2 class="h2">Dropdownlist</h2>
+                </Legend>
+                <p><select name="Balletdanseressen">
+                        <option value="Martha Graham">Martha Graham</option>
+                        <option value="Carlotta Grisi">Carlotta Grisi</option>
+                        <option value="Agrippina Vaganova" selected="selected">Agrippina Vaganova</option>
+                        <option value="Natalie Portman">Natalie Portman</option>
+                    </select></p>
+            </fieldset>
+
+            <fieldset>
+                <Legend>
+                    <h2 class="h2">Textarea</h2>
+                </Legend>
+                <p><textarea rows="7" cols="25" name="opmerkingen"></textarea></p>
+
+                <Legend>
+                    <h2 class="h2">Submit knop</h2>
+                </Legend>
+                <p><input type="submit" value="Verzenden"></p>
+        </form>
+        </fieldset>
+
+        <form method="post" action="">
+            <fieldset>
+                <legend>Omschrijving van het formulier</legend>
+            </fieldset>
+        </form>
+
+        <form method="post" action="">
+            <fieldset>
+                <legend>Omschrijving van het formulier</legend>
+                <label for="voornaam">Voornaam</label><input type="text" name="voornaam" id="voornaam">
+                <label for="achternaam">Achternaam</label><input type="text" name="achternaam" id="achternaam">
+                <label for="adres">Adres</label><input type="adres" name="adres" id="adres">
+            </fieldset>
+        </form>
+
+        <form>
+            <fieldset>
+
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>

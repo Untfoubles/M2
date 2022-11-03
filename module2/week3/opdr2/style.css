@@ -1,0 +1,125 @@
+* {
+    font-family: Open Sans, Arial, Helvetica, Verdana, sans-serif;
+}
+
+header {
+    background-color: #0090e3;
+    transform: translateZ(0);
+    width: auto;
+    padding: 1px;
+    margin: 5px;
+    height: 80px;
+}
+
+img {
+    width: 79px;
+    height: auto;
+}
+
+.border img {
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    margin-left: 20%;
+
+}
+
+.rij {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    width: 90%;
+    margin: 0 auto;
+    height: auto;
+
+}
+
+.rij .links {
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    text-align: right;
+    padding-right: 11px;
+
+}
+
+.rij .rechts {
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    padding-left: 11px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#tussenvoegsel {
+    width: 45px;
+}
+
+.flex input {
+    background: #17cd3e;
+    color: rgb(255, 255, 255);
+    border-style: outset;
+    border-color: #9edc9e;
+    height: 50px;
+    width: 100px;
+    font: bold 15px arial, sans-serif;
+    text-shadow: none;
+}
+
+.question {
+    background-color: #3795cc;
+    color: white;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    text-align: center;
+}
+
+.rechts>p {
+    display: flex;
+
+}
+
+.text {
+    color: #1e50bc;
+    letter-spacing: -0, 5px;
+}
+
+.text #onder {
+    color: #52b7f1;
+    letter-spacing: -1px;
+}
+
+.flex {
+    background-color: rgba(159, 154, 164, 0.479);
+    padding: 10px;
+    width: 80%;
+    margin: 0 auto;
+    height: 80;
+    display: flex;
+    justify-content: right;
+}
+
+h3 {
+    margin-top: -1.5%;
+    font-weight: 50;
+}
+
+h5 {
+    font-size: medium;
+    font-weight: 50;
+    margin: 4%;
+
+}
+
+.footer {
+    background-color: #0090e3;
+    color: aliceblue;
+    width: 30%;
+    padding: 70px;
+    padding-left: 200px;
+    margin: 0;
+    height: 300px;
+    float: left;
+}
